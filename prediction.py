@@ -1,7 +1,7 @@
 import numpy as np
 import pickle
 
-loaded_model=pickle.load(open('/home/jayaprakash/machine learning/insurance/trained_model.sav','rb'))
+loaded_model=pickle.load(open('trained_model.sav','rb'))
 
 input_data = (25)
 input_data_as_numpy_array = np.asarray(input_data)
