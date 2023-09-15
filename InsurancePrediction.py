@@ -19,7 +19,7 @@ def insurance_prediction(input_data):
 
   
 def main():
-    st.title('Insurance Prediction Web App')
+    st.title('Insurance Prediction')
     Age = st.text_input('Age of the Person')
     diagnosis = ''
     if st.button('Test Result'):
